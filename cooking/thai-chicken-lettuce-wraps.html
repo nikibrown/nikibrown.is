@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Thai Chicken Lettuce Wraps</title>
+    </head>
+    <body>
+        <header>
+            <h1>Niki Brown is <span id="directory"></span>:</h1>
+            <h2>Thai Chicken Lettuce Wraps</h2>
+            <h3>Tags:</h3>
+            <ul>
+                <li>Chicken</li>
+                <li>Soy</li>
+                <li>Paleo</li>
+            </ul>
+            <cite>Pg 94 Paleo Perfected: America's Test Kitchen</cite>
+        </header>
+        <main>
+            <section>
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>
+                        1 pound boneless skinless chicken thighs, trimmed into
+                        1-inch pieces
+                    </li>
+                    <li>2 tablespoons fish sauce</li>
+                    <li>2 tablespoons lime juice</li>
+                    <li>4 teaspoons soy sauce</li>
+                    <li>2.5 teaspoons tapioca flour</li>
+                    <li>0.5 teaspoon red pepper flakes</li>
+                    <li>0.5 teaspoon kosher salt</li>
+                    <li>0.5 teaspoon pepper</li>
+                    <li>2 teaspoons honey</li>
+                    <li>1 red bell pepper</li>
+                    <li>1 orange bell pepper</li>
+                    <li>2 shallots</li>
+                    <li>1 head Bibb lettuce</li>
+                </ul>
+
+                <h2>Preparation</h2>
+
+                <h3>Prep Chicken</h3>
+                <ol>
+                    <li>
+                        Spread chicken on a large plate and freeze until firm
+                        (~25 minutes).
+                    </li>
+                    <li>
+                        Pulse half of the chicken in a food processor until
+                        finely ground into 1/4 - 1/8 inch pieces (6-10 pulses).
+                    </li>
+                    <li>Repeat with the second half of the chicken.</li>
+                </ol>
+
+                <h3>Prep Sauce for Marinade</h3>
+                <ol>
+                    <li>Whisk together the following:</li>
+                    <ul>
+                        <li>2 teaspoons fish sauce</li>
+                        <li>1 teaspoon lime juice</li>
+                        <li>1 teaspoon soy sauce</li>
+                        <li>2 teaspoons tapioca flour</li>
+                        <li>0.5 teaspoon red pepper flakes</li>
+                        <li>0.5 teaspoon salt</li>
+                        <li>0.5 teaspoon pepper</li>
+                    </ul>
+                    <li>
+                        Toss chicken in sauce and let marinate for 15 minutes.
+                    </li>
+                </ol>
+
+                <h2>Cooking Instructions</h2>
+                <ol>
+                    <li>
+                        Whisk together:
+                        <ul>
+                            <li>2 tablespoons honey</li>
+                            <li>4 teaspoons fish sauce</li>
+                            <li>5 teaspoons lime juice</li>
+                            <li>1 tablespoon soy sauce</li>
+                            <li>0.5 teaspoon tapioca flour</li>
+                        </ul>
+                    </li>
+                    <li>Heat oil in a 12-inch pan.</li>
+                    <li>Sauté peppers.</li>
+                    <li>Sauté shallots.</li>
+                    <li>Add chicken and cook until no longer pink.</li>
+                    <li>Add the remaining sauce and cook for a few minutes.</li>
+                </ol>
+            </section>
+        </main>
+        <script>
+            // Get the full path of the current page
+            const fullPath = window.location.pathname;
+
+            // Extract the directory from the path
+            let directory = fullPath.substring(1, fullPath.lastIndexOf("/"));
+
+            const directoryElement = document.getElementById("directory");
+
+            directoryElement.textContent = directory;
+        </script>
+    </body>
+</html>
